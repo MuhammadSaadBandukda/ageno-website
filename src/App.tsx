@@ -11,24 +11,27 @@ import Agenoversity from './pages/Agenoversity/Agenoversity';
 import AboutUs from './pages/About/AboutUs';
 import OurJourney from './pages/About/OurJourney';
 import OurTeam from './pages/About/OurTeam';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/agenoversity" element={<Agenoversity />} />
-        
+        <Route path="/agenoversity" element={<Agenoversity />} /> 
         {/* About subpages */}
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/our-journey" element={<OurJourney />} />
         <Route path="/our-team" element={<OurTeam />} />
       </Routes>
+    </div>
+      <Footer/>
     </>
   );
 }
