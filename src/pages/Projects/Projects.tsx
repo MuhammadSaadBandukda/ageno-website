@@ -1,6 +1,7 @@
 import Banner from "../../components/Banner";
 import ServicePng from "../../../public/services.png";
 import WebApplicaion from "./components/WebApplicaion";
+import DesktopApplication from "./components/DesktopApplication";
 const Projects = () => {
   return (
     <>
@@ -12,8 +13,9 @@ const Projects = () => {
         }
         image={ServicePng}
       />
-        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 ">
           <WebApplicaion/>
+          <DesktopApplication/>
           {/* WEBAPPLICTAION  */}
           {/* MOBILE APPLICATIOON  */}
           {/* aGENTIC APPLICATIOON  */}

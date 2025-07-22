@@ -168,7 +168,6 @@ const datas: TWebApplication[] = [
 
 const WebApplication = () => {
   const [showAll, setShowAll] = useState(false);
-
   const visibleCards = showAll ? datas : datas.slice(0, 6);
 
   return (
