@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="w-full bg-whitew dark:bg-zinc-800 dark:text-gray-400 space-y-6 md:space-y-12 py-12">
+    <div className="w-full bg-white border-t border-zinc-200 dark:border-zinc-600  dark:bg-zinc-800 dark:text-gray-400 space-y-6 md:space-y-12 py-12">
     <div className="grid md:grid-cols-12 mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
       <div className="md:col-span-6 place-items-center mx-auto md:mx-0">
         <h1 className="text-blue-600 text-xl font-bold">Agenoverse</h1>
