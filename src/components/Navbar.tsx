@@ -32,7 +32,7 @@ function Navbar() {
   };
   return (
     <nav
-      className={`bg-white dark:bg-zinc-800 dark:text-white shadow-md px-4 py-3 flex justify-between items-center relative z-50 `}
+    className={`bg-white dark:bg-zinc-800 dark:text-white shadow-md px-4 py-3 flex justify-between items-center relative z-50 `}
     >
       {/* Mobile: Hamburger */}
       <button
