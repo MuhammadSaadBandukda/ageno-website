@@ -79,7 +79,7 @@ const DesktopApplication = () => {
       <h1 className="text-4xl font-extrabold uppercase dark:text-stone-200">
         Desktop Application Projects
       </h1>
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
         {visibleCards.map((data, index) => {
           const isFaded = !showAll && index >= 4; // apply opacity only for index 4 and 5
           return (
@@ -88,11 +88,11 @@ const DesktopApplication = () => {
               className={`max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 ${
                 isFaded ? "opacity-0 h-0 overflow-hidden" : ""
               } ${
-                datas.length % 4 === 2 && index == datas.length - 2
+                (datas.length % 4 === 2 && index == datas.length - 2 && innerWidth > 1023)
                   ? "col-start-1"
                   : ""
               } ${
-                datas.length % 4 === 2 && index == datas.length - 2
+                (datas.length % 4 === 2 && index == datas.length - 2 && innerWidth > 1023)
                   ? "col-start-2"
                   : ""
               }`}
@@ -113,9 +113,8 @@ const DesktopApplication = () => {
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   {data.description}
                 </p>
-                <a
-                  href="#"
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                <button
+                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg  me-2 mb-2 dark:bg-gray-600 dark:hover:bg-gray-900 dark:focus:ring-gray-700 dark:border-gray-700"
                 >
                   Read more
                   <svg
@@ -133,7 +132,7 @@ const DesktopApplication = () => {
                       d="M1 5h12m0 0L9 1m4 4L9 9"
                     />
                   </svg>
-                </a>
+                </button>
               </div>
             </div>
           );

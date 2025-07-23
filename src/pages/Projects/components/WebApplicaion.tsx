@@ -172,19 +172,19 @@ const WebApplication = () => {
 
   return (
     <div className="flex flex-col items-center gap-8">
-      <h1 className="text-4xl font-extrabold uppercase dark:text-stone-200">Web Application Projects</h1>
-      <div className="grid grid-cols-2 gap-10">
+      <h1 className="text-4xl text-center font-extrabold uppercase dark:text-stone-200">Web Application Projects</h1>
+      <div className="grid lg:grid-cols-2 gap-10">
         {visibleCards.map((data, index) => {
           const isFaded = !showAll && index >= 4; // apply opacity only for index 4 and 5
           return (
             <div
               key={index}
-              className={`flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 group transition duration-300 ${
+              className={`flex justify-between items-center bg-white border border-gray-200 rounded-lg shadow-sm md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 group transition duration-300 ${
                 isFaded ? "opacity-0 h-0 overflow-hidden" : ""
               }`}
             >
               <img
-                className="object-contain w-full rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                className="object-contain w-full rounded-t-lg h-72 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 src={data.image}
                 alt=""
               />
