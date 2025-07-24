@@ -1,4 +1,7 @@
 import React from 'react'
+import { CodeBracketIcon, LinkIcon } from '@heroicons/react/24/outline'
+import {Bot } from 'lucide-react'
+
 import HeroSection from './components/HeroSection'
 interface Service {
   title: string
@@ -23,26 +26,54 @@ const services: Service[] = [
   },
 ]
 
+const headings = ['Smart Solutions, Powerful Results.']
+
+const dividerData = [
+  {
+    icon: <CodeBracketIcon className="h-20 w-20 text-blue-600" />,
+    title: 'Built for You',
+    description: 'We tailor every solution to match your vision and business goals.',
+  },
+  {
+    icon: <Bot className="h-20 w-20 text-blue-600" />,
+    title: 'AI-Powered',
+    description: 'Integrating modern AI tools to make your systems smarter.',
+  },
+  {
+    icon: <LinkIcon className="h-20 w-20 text-blue-600" />,
+    title: 'Performance First',
+    description: 'Optimized, scalable code for blazing-fast user experience.',
+  },
+];
+
 const Services = () => {
   return (
     <>
     <HeroSection/>
     <div className="min-h-screen bg-gray-50 py-12 px-6 md:px-12">
       
-      <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
-        Our Services
-      </h1>
+      <div className="text-center max-w-3xl mx-auto mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Build with Confidence, Scale with AI
+          </h1>
+          <p className="text-gray-600 text-lg">
+            From custom websites to smart AI agents — we create digital solutions that deliver.
+          </p>
+        </div>
 
       <div className="grid gap-10 md:grid-cols-1 max-w-6xl mx-auto">
         {services.map((service, index) => (
+          <>
           <div
             key={index}
-            className="bg-white md:flex  rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            className={`bg-white lg:flex my-6  rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col-reverse lg:flex-row ${
+            index % 2 !== 0 ? 'lg:flex-row-reverse' : ''
+            }`}
           >
             <img
               src={service.image}
               alt={service.title}
-              className="h-96 w-full object-fill sm:object-cover"
+              className="h-96 w-full object-fill lg:object-cover"
             />
             <div className="p-20 flex flex-col justify-center">
               <h2 className="text-2xl font-semibold text-blue-600 mb-4">
@@ -53,6 +84,24 @@ const Services = () => {
               </p>
             </div>
           </div>
+          {index < services.length - 1 && (
+            <>
+            <div className='p-6 font-semibold text-4xl'>{headings[index]}</div>
+           <div className="max-w-6xl mx-auto md:mx-9 grid grid-cols-1 md:grid-cols-3 gap-12 sm:gap-7 lg:gap-12">
+        {dividerData.map((item, index) => (
+          <div
+            key={index}
+            className="text-center bg-green-100  p-6 rounded-xl shadow-md  hover:shadow-xl transition duration-300"
+          >
+            <div className="text-3xl mb-4 flex justify-center">{item.icon}</div>
+            <h3 className=" text-xl font-semibold mb-2">{item.title}</h3>
+            <p className=" text-sm">{item.description}</p>
+          </div>
+        ))}
+      </div>
+      </>
+)}
+          </>
         ))}
       </div>
     </div>

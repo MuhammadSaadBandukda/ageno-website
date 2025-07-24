@@ -2,7 +2,7 @@
 const HeroSection = () => {
   return (
     <div><img src="" 
-    alt="banner" className="h-60 w-full object-fill sm:object-fill"/></div>
+    alt="banner" className="h-[27rem] w-full object-fill sm:object-fill "/></div>
   )
 }
 
