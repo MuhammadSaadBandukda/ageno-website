@@ -86,7 +86,7 @@ const AgenticApplication = () => {
 
   return (
     <div className="flex flex-col items-center gap-8">
-      <h1 className="text-4xl font-extrabold uppercase dark:text-stone-200">
+      <h1 className="text-4xl text-center font-extrabold uppercase dark:text-stone-200">
         Agentic Application Projects
       </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
