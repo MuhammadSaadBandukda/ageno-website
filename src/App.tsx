@@ -15,9 +15,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className='space-y-10'>
       <Navbar />
-    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -30,9 +29,8 @@ function App() {
         <Route path="/our-journey" element={<OurJourney />} />
         <Route path="/our-team" element={<OurTeam />} />
       </Routes>
-    </div>
       <Footer/>
-    </>
+    </div>
   );
 }
 

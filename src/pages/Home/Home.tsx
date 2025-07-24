@@ -1,5 +1,9 @@
 const Home = () => {
-  return <div></div>;
+  return <div>
+    {/* Nesletter */}
+    {/* future section */}
+    {/* Social Proof content */}
+  </div>;
 };
 
 export default Home;
