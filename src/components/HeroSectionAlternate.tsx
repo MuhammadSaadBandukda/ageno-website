@@ -6,16 +6,17 @@ interface HeroSectionProps{
 
 
 
-const HeroSection = ({topLine,mainText,image}:HeroSectionProps) => {
+const HeroSectionAlternate = ({topLine,mainText,image}:HeroSectionProps) => {
   return (
     <div>
       <main id="content">
 
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:items-center rounded-2xl bg-stone-200 dark:bg-gray-800 ">
-        <div className="relative h-80 md:h-120 bg-gray-100 rounded-2xl dark:bg-neutral-800">
+        <div className="md:hidden relative h-80 md:h-120 bg-gray-100 rounded-2xl dark:bg-neutral-800">
           <img className="absolute inset-0 size-full object-cover rounded-2xl" src={image} alt="Testimonials Image"/>
         </div>
+
 
         <div className="pt-10 md:p-10">
           <blockquote className="max-w-4xl mx-auto">
@@ -29,6 +30,10 @@ const HeroSection = ({topLine,mainText,image}:HeroSectionProps) => {
 
           </blockquote>
         </div>
+
+        <div className="hidden md:block relative h-80 md:h-120 bg-gray-100 rounded-2xl dark:bg-neutral-800">
+          <img className="absolute inset-0 size-full object-cover rounded-2xl" src={image} alt="Testimonials Image"/>
+        </div>
     </div>
 
 
@@ -37,7 +42,7 @@ const HeroSection = ({topLine,mainText,image}:HeroSectionProps) => {
 );
 };
 
-export default HeroSection;
+export default HeroSectionAlternate;
 
       {/* <section className="text-center py-20 bg-gray-50">
         <span className="text-sm tracking-widest uppercase text-gray-500">

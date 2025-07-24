@@ -7,52 +7,52 @@
 //     {
 //         title:"Hello World",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello Dunya",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello World",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello Dunya",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello World",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello Dunya",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello World",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello Dunya",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello World",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 //     {
 //         title:"Hello Dunya",
 //         description:" Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-//         image:"../../../public/portrait_temp.png"
+//         image:"https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 //     },
 // ]
 // const WebApplicaion = () => {
@@ -108,61 +108,61 @@ const datas: TWebApplication[] = [
     title: "Hello World",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello Dunya",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello World",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello Dunya",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello World",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello Dunya",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello World",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello Dunya",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello World",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Hello Dunya",
     description:
       " Here are the biggest enterprise technology acquisitions of so far, in reverse chronological order",
-    image: "../../../public/portrait_temp.png",
+    image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
