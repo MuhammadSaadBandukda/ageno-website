@@ -7,11 +7,11 @@ interface BannerProps {
 
 const Banner = ({ title, subtitle, description, image }: BannerProps) => {
   return (
-    <div className="px-6 sm:px-8 lg:px-12 py-4 sm:py-6 lg:py-8 h-fit md:h-72 place-items-center bg-stone-200 dark:bg-gray-800">
+    <div className="px-6 sm:px-8 lg:px-12 py-4 sm:py-6 lg:py-8 h-fit md:h-80 place-items-center bg-stone-200 dark:bg-gray-800">
       <h1 className="text-4xl font-bold text-gray-800 dark:text-stone-200">
         {title}
       </h1>
-      <div className="grid md:grid-cols-2  ">
+      <div className="grid md:grid-cols-2  gap-6 md:gap-8 lg:gap-12">
         <div className="">
           <span className="text-sm tracking-widest uppercase text-gray-500 dark:text-gray-300">
             Featured Work
@@ -19,10 +19,16 @@ const Banner = ({ title, subtitle, description, image }: BannerProps) => {
           <h2 className="text-4xl font-bold mt-2  text-gray-800 dark:text-stone-200">
             {subtitle}
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 text-justify md:text-left">{description}</p>
+          <p className="text-gray-600 dark:text-gray-400 text-justify md:text-left">
+            {description}
+          </p>
         </div>
-        <div className="place-items-center md:place-items-end">
-          <img src={image} alt="" className="object-contain h-48 md:w-3/4" />
+        <div className="flex justify-center relative">
+          <img
+            src={image}
+            alt=""
+            className="object-contain h-60 md:absolute -top-10"
+          />
         </div>
       </div>
     </div>
@@ -30,10 +36,6 @@ const Banner = ({ title, subtitle, description, image }: BannerProps) => {
 };
 
 export default Banner;
-
-
-
-
 
 // interface BannerProps {
 //   title: string;

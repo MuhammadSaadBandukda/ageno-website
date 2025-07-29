@@ -1,13 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
 import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
 import Projects from './pages/Projects/Projects';
 import Events from './pages/Events/Events';
 import Blogs from './pages/Blog/Blogs';
 import Agenoversity from './pages/Agenoversity/Agenoversity';
-
 import AboutUs from './pages/About/AboutUs';
 import OurJourney from './pages/About/OurJourney';
 import OurTeam from './pages/About/OurTeam';

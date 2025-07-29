@@ -1,7 +1,7 @@
 import React from 'react'
 import ServicePng from '../../../public/services.png'
 import { CodeBracketIcon, LinkIcon } from '@heroicons/react/24/outline'
-import {Bot } from 'lucide-react'
+import {Bot  } from 'lucide-react'
 import WhyChooseUs from '../../components/WhyChooseUs'
 import Banner from '../../components/Banner'
 interface Service {
