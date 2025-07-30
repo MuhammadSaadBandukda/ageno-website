@@ -10,6 +10,7 @@ import AboutUs from './pages/About/AboutUs';
 import OurJourney from './pages/About/OurJourney';
 import OurTeam from './pages/About/OurTeam';
 import Footer from './components/Footer';
+import BlogDetails from './pages/Blog/BlogDetails';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:slug" element={<BlogDetails />} />
         <Route path="/agenoversity" element={<Agenoversity />} /> 
         {/* About subpages */}
         <Route path="/about-us" element={<AboutUs />} />

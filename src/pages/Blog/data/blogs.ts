@@ -26,7 +26,7 @@ export const sampleBlogs = Array.from({ length: 24 }).map((_, index) => {
     "Deploying with Vercel",
   ];
 
-  const getSlug = (title:string) =>
+  const getSlug = (title: string) =>
     title.toLowerCase().replace(/[^\w ]+/g, "").replace(/ +/g, "-");
 
   const randomTagsPool = [
@@ -44,16 +44,47 @@ export const sampleBlogs = Array.from({ length: 24 }).map((_, index) => {
 
   const shuffledTags = randomTagsPool.sort(() => 0.5 - Math.random()).slice(0, 3);
 
+  const content = `# ${titles[index]}
+
+## Introduction
+
+This blog post dives into **${titles[index]}** and helps developers enhance their understanding.
+
+### Why It Matters
+
+- Helps write better code
+- Boosts productivity
+- Industry-relevant skills
+
+### Sample Code
+
+\`\`\`js
+function greet(name) {
+  return \`Hello, \${name}!\`;
+}
+\`\`\`
+
+
+
+### Final Thoughts
+
+Always keep learning and experimenting with new concepts.
+
+---
+
+> Written by Saad Raza on July ${1 + index}, 2025.
+`;
+
   return {
     title: titles[index],
     slug: getSlug(titles[index]),
-    content: `This blog post discusses ${titles[index].toLowerCase()} and provides tips for developers.`,
+    content,
     coverImage: "../../../../../public/project1.png",
     tags: shuffledTags,
     author: {
       name: "Saad Raza",
       photoUrl: "../../../../../public/profile.jpg",
     },
-    createdAt: new Date(2025, 6, 1 + index), // July 1–24, 2025
+    createdAt: new Date(2025, 6, 1 + index),
   };
 });
