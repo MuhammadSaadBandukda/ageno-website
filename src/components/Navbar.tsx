@@ -186,6 +186,7 @@ function Navbar() {
             <ul className="space-y-4">
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -194,6 +195,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/services"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -202,6 +204,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/projects"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -210,6 +213,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/events"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -218,6 +222,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/blogs"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -226,6 +231,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
+                onClick={() => setSidebarOpen(false)}
                   to="/agenoversity"
                   className="block hover:text-blue-600 border-b border-gray-400/50"
                 >
@@ -250,6 +256,7 @@ function Navbar() {
                   <ul className=" w-40 py-2 z-10">
                     <li>
                       <Link
+                      onClick={() => setSidebarOpen(false)}
                         to="/about-us"
                         className="flex items-center px-4 py-2 text-blue-600 hover:bg-gray-100"
                       >
@@ -259,6 +266,7 @@ function Navbar() {
                     </li>
                     <li>
                       <Link
+                      onClick={() => setSidebarOpen(false)}
                         to="/our-journey"
                         className="flex items-center px-4 py-2 text-blue-600 hover:bg-gray-100"
                       >
@@ -268,6 +276,7 @@ function Navbar() {
                     </li>
                     <li>
                       <Link
+                      onClick={() => setSidebarOpen(false)}
                         to="/our-team"
                         className="flex items-center px-4 py-2 text-blue-600 hover:bg-gray-100"
                       >
