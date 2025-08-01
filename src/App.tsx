@@ -11,10 +11,12 @@ import OurJourney from './pages/About/OurJourney';
 import OurTeam from './pages/About/OurTeam';
 import Footer from './components/Footer';
 import BlogDetails from './pages/Blog/BlogDetails';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className='space-y-10'>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

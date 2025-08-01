@@ -14,17 +14,17 @@ const HeroSectionAlternate = ({topLine,mainText,image}:HeroSectionProps) => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 md:items-center rounded-2xl bg-stone-200 dark:bg-gray-800 ">
         <div className="md:hidden relative h-80 md:h-120 bg-gray-100 rounded-2xl dark:bg-neutral-800">
-          <img className="absolute inset-0 size-full object-cover rounded-2xl" src={image} alt="Testimonials Image"/>
+          <img className="absolute inset-0 size-full object-cover rounded-l-2xl" src={image} alt="Testimonials Image"/>
         </div>
 
 
         <div className="pt-10 md:p-10">
           <blockquote className="max-w-4xl mx-auto">
-            <p className="mb-6 md:text-lg dark:text-gray-400">
+            <p className="mb-6 md:text-lg dark:text-gray-400 p-3">
               {topLine}
             </p>
 
-            <p className="text-xl sm:text-2xl lg:leading-normal text-gray-800 dark:text-neutral-200">
+            <p className="text-xl sm:text-2xl text-justify p-3 lg:leading-normal text-gray-800 dark:text-neutral-200">
                {mainText}
             </p>
 
@@ -32,7 +32,7 @@ const HeroSectionAlternate = ({topLine,mainText,image}:HeroSectionProps) => {
         </div>
 
         <div className="hidden md:block relative h-80 md:h-120 bg-gray-100 rounded-2xl dark:bg-neutral-800">
-          <img className="absolute inset-0 size-full object-cover rounded-2xl" src={image} alt="Testimonials Image"/>
+          <img className="absolute inset-0 size-full object-cover rounded-2xl md:rounded-r-2xl" src={image} alt="Testimonials Image"/>
         </div>
     </div>
 
