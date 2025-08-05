@@ -1,9 +1,8 @@
+import React from 'react'
 
 const OurJourney = () => {
   return (
-    <div>
-      
-    </div>
+    <div>OurJourney</div>
   )
 }
 
