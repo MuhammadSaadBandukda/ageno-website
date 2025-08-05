@@ -171,7 +171,7 @@ const WebApplication = () => {
   const visibleCards = showAll ? datas : datas.slice(0, 6);
 
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8 scroll-mt-28" id="web-app">
       <h1 className="text-4xl text-center font-extrabold uppercase dark:text-stone-200">Web Application Projects</h1>
       <div className="grid lg:grid-cols-2 gap-10">
         {visibleCards.map((data, index) => {

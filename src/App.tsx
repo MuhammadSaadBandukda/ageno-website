@@ -12,12 +12,14 @@ import OurTeam from './pages/About/OurTeam';
 import Footer from './components/Footer';
 import BlogDetails from './pages/Blog/BlogDetails';
 import ScrollToTop from './components/ScrollToTop';
+import { ScrollProgress } from './components/magicui/scroll-progress';
 
 function App() {
   return (
     <div className='space-y-10'>
       <ScrollToTop />
       <Navbar />
+      <ScrollProgress/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />

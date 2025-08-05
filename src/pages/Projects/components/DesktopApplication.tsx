@@ -75,7 +75,7 @@ const DesktopApplication = () => {
   const visibleCards = showAll ? datas : datas.slice(0, 6);
 
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8 scroll-mt-28" id="desktop-app">
       <h1 className="text-4xl font-extrabold uppercase dark:text-stone-200">
         Desktop Application Projects
       </h1>

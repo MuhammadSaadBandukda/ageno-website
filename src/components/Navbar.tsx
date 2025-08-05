@@ -8,6 +8,7 @@ import {
   LucideSun,
   LucideMoon,
 } from "lucide-react";
+import ThemeToggleButton from "./ui/theme-toggle-button";
 
 function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -34,13 +35,13 @@ function Navbar() {
     }
   }, [theme]);
 
-  const handleThemeToggle = (newTheme: string) => {
-    setTransitioning(true);
-    setTimeout(() => {
-      setTheme(newTheme);
-      setTransitioning(false);
-    }, 300);
-  };
+  // const handleThemeToggle = (newTheme: string) => {
+  //   setTransitioning(true);
+  //   setTimeout(() => {
+  //     setTheme(newTheme);
+  //     setTransitioning(false);
+  //   }, 300);
+  // };
 
   return (
     <nav
@@ -189,7 +190,7 @@ function Navbar() {
               transform: transitioning ? "translateY(20px)" : "translateY(0px)",
             }}
           >
-            {theme === "dark" ? (
+            {/* {theme === "dark" ? (
               <button
                 onClick={() => handleThemeToggle("")}
                 className="bg-zinc-100 dark:text-zinc-600 p-3 hover:bg-zinc-300 rounded-lg w-full h-full"
@@ -203,8 +204,10 @@ function Navbar() {
               >
                 <LucideMoon />
               </button>
-            )}
+            )} */}
+          <ThemeToggleButton />
           </div>
+
         </li>
       </ul>
 
@@ -365,7 +368,7 @@ function Navbar() {
             transform: transitioning ? "translateY(20px)" : "translateY(0px)",
           }}
         >
-          {theme === "dark" ? (
+          {/* {theme === "dark" ? (
             <button
               onClick={() => handleThemeToggle("")}
               className="bg-zinc-100 dark:text-zinc-600 p-3 hover:bg-zinc-300 rounded-lg w-full h-full"
@@ -378,8 +381,9 @@ function Navbar() {
               className="bg-zinc-100 dark:text-zinc-600 p-3 hover:bg-zinc-300 rounded-lg w-full h-full"
             >
               <LucideMoon />
-            </button>
-          )}
+            </button> 
+          )}*/}
+          <ThemeToggleButton />
         </div>
       </div>
     </nav>
