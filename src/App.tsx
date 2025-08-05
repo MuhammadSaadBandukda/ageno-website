@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
 import Projects from './pages/Projects/Projects';
 import Events from './pages/Events/Events';
+import EventDetails from './pages/Events/EventDetails';
 import Blogs from './pages/Blog/Blogs';
 import Agenoversity from './pages/Agenoversity/Agenoversity';
 import AboutUs from './pages/About/AboutUs';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/events/:title" element={<EventDetails />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:slug" element={<BlogDetails />} />
         <Route path="/agenoversity" element={<Agenoversity />} /> 
